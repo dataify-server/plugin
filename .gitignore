@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+*.out
+*.exe
+*.test
+*.zip
+tmp/
+storage/
+uploads/
+clawhub-package-preview/
+node_modules/
