@@ -1,0 +1,16 @@
+{
+  "name": "dataify-mcp",
+  "version": "0.1.0",
+  "description": "ClawHub bundle plugin for Dataify remote MCP tools.",
+  "license": "MIT",
+  "keywords": [
+    "openclaw",
+    "clawhub",
+    "mcp",
+    "dataify",
+    "serp",
+    "web-unlocker",
+    "scraping",
+    "search"
+  ]
+}

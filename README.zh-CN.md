@@ -107,6 +107,24 @@ https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}
 - 当前网络可以访问 Dataify MCP 服务地址。
 - MCP Host 支持远程 Streamable HTTP MCP，并支持在 URL 中使用环境变量。
 
+## 发布检查
+
+ClawHub 要求插件发布包包含 `openclaw.plugin.json`，并提供源码仓库和精确提交记录。推荐从公开 GitHub 仓库 checkout 后发布；如果从本地目录发布，需要在 CLI 中显式传入 source metadata。
+
+```bash
+clawhub package publish ./clawhub-package-preview \
+  --family bundle-plugin \
+  --source-repo <public-owner/public-repo> \
+  --source-commit <exact-commit-sha> \
+  --source-ref <branch-or-tag> \
+  --source-path clawhub-package-preview \
+  --dry-run
+```
+
+Dry run 通过后，再去掉 `--dry-run` 正式发布。
+
+`--source-commit` 应该填写包含当前 Bundle 文件的那次提交，也就是已经提交了 `README.md`、`README.zh-CN.md`、`package.json`、`openclaw.plugin.json`、`.mcp.json`、`.claude-plugin/plugin.json` 和 `skills/dataify-mcp/SKILL.md` 的公开仓库 commit。
+
 ## 获取 API Token
 
 可在 Dataify 控制台创建或管理 API Token：

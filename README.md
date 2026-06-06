@@ -109,6 +109,24 @@ For MCP clients that do not install ClawHub bundles, configure the remote server
 - Network access to the Dataify MCP endpoint.
 - An MCP host that supports remote Streamable HTTP MCP servers and environment variable interpolation in URLs.
 
+## Publishing Checklist
+
+ClawHub requires plugin releases to include `openclaw.plugin.json` and source repository attribution. Publish from a public GitHub-backed checkout when possible, or pass explicit source metadata with the CLI.
+
+```bash
+clawhub package publish ./clawhub-package-preview \
+  --family bundle-plugin \
+  --source-repo <public-owner/public-repo> \
+  --source-commit <exact-commit-sha> \
+  --source-ref <branch-or-tag> \
+  --source-path clawhub-package-preview \
+  --dry-run
+```
+
+After the dry run is clean, run the same command without `--dry-run`.
+
+The source commit should be the commit that contains this bundle's current `README.md`, `package.json`, `openclaw.plugin.json`, `.mcp.json`, `.claude-plugin/plugin.json`, and `skills/dataify-mcp/SKILL.md`.
+
 ## Support
 
 Create a Dataify account or manage API tokens at:
