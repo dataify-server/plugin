@@ -1,0 +1,19 @@
+{
+  "name": "dataify-mcp",
+  "displayName": "Dataify MCP",
+  "version": "0.1.0",
+  "description": "Connect agents to Dataify's remote MCP server for SERP search, web unlocking, scraper tasks, and usage/account tools.",
+  "author": {
+    "name": "Dataify"
+  },
+  "mcpServers": {
+    "dataify": {
+      "type": "http",
+      "transport": "streamable-http",
+      "url": "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}"
+    }
+  },
+  "skills": [
+    "skills/dataify-mcp/SKILL.md"
+  ]
+}

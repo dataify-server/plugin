@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "2026.1",
+  "name": "dataify-mcp",
+  "displayName": "Dataify MCP",
+  "version": "0.1.0",
+  "description": "Remote MCP bundle for Dataify web unlocking, SERP search, scraper tasks, and account usage tools.",
+  "author": {
+    "name": "Dataify"
+  },
+  "category": "mcp-tooling",
+  "keywords": [
+    "mcp",
+    "dataify",
+    "serp",
+    "web-unlocker",
+    "scraping",
+    "search"
+  ],
+  "license": "MIT",
+  "type": "bundle",
+  "bundle": {
+    "format": "claude",
+    "skills": [
+      "skills/dataify-mcp/SKILL.md"
+    ],
+    "mcp": ".mcp.json"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "dataify": {
+      "type": "http",
+      "transport": "streamable-http",
+      "url": "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}"
+    }
+  }
+}
