@@ -2,6 +2,7 @@
   "name": "dataify-mcp",
   "version": "0.1.0",
   "description": "ClawHub bundle plugin for Dataify remote MCP tools.",
+  "main": "openclaw.plugin.json",
   "license": "MIT",
   "author": "Dataify",
   "repository": {
@@ -9,6 +10,18 @@
     "url": "https://github.com/dataify-server/plugin"
   },
   "homepage": "https://www.dataify.com",
+  "bugs": {
+    "url": "https://github.com/dataify-server/plugin/issues"
+  },
+  "files": [
+    "openclaw.plugin.json",
+    ".mcp.json",
+    ".claude-plugin/",
+    "skills/",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
   "keywords": [
     "openclaw",
     "clawhub",
