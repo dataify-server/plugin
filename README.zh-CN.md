@@ -7,7 +7,7 @@ Dataify MCP 是一个用于 ClawHub / OpenClaw 的远程 MCP Bundle 插件。它
 ## 安装
 
 ```bash
-openclaw plugins install clawhub:dataify-mcp
+openclaw plugins install clawhub:@dataify-server/dataify-mcp
 ```
 
 安装后配置 Dataify API Token：

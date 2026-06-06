@@ -1,5 +1,5 @@
 {
-  "name": "dataify-mcp",
+  "name": "@dataify-server/dataify-mcp",
   "displayName": "Dataify MCP",
   "version": "0.1.0",
   "description": "Connect agents to Dataify's remote MCP server for SERP search, web unlocking, scraper tasks, and usage/account tools.",

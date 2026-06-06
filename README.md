@@ -9,7 +9,7 @@ This package is a ClawHub bundle plugin. It does not execute local code. It regi
 ## Install
 
 ```bash
-openclaw plugins install clawhub:dataify-mcp
+openclaw plugins install clawhub:@dataify-server/dataify-mcp
 ```
 
 Then configure your Dataify API token:

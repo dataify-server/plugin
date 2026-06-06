@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2026.1",
-  "name": "dataify-mcp",
+  "name": "@dataify-server/dataify-mcp",
   "displayName": "Dataify MCP",
   "version": "0.1.0",
   "description": "Remote MCP bundle for Dataify web unlocking, SERP search, scraper tasks, and account usage tools.",
@@ -17,11 +17,6 @@
     "search"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dataify-server/plugin"
-  },
-  "homepage": "https://www.dataify.com",
   "type": "bundle",
   "bundle": {
     "format": "claude",
