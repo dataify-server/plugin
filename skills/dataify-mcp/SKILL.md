@@ -22,7 +22,7 @@ Before calling tools:
 The remote MCP server is registered as `dataify` and authenticates through the endpoint URL:
 
 ```text
-https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}
+https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}&tools=user_info,web_unlocker,google_serp,yandex_serp,duckduckgo_serp,bing_serp,amazon,youtube,facebook,instagram,reddit,walmart,google,booking,indeed,airbnb,google_play_store,github,tiktok,linkedin,glassdoor,twitter,crunchbase,zillow,ebay
 ```
 
 The server exposes a large tool catalog. Representative tools include:

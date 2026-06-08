@@ -2,7 +2,7 @@
   "schemaVersion": "2026.1",
   "name": "@dataify-server/dataify-mcp",
   "displayName": "Dataify MCP",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Remote MCP bundle for Dataify web unlocking, SERP search, scraper tasks, and account usage tools.",
   "author": {
     "name": "Dataify"

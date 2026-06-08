@@ -27,7 +27,7 @@ The plugin registers the `dataify` MCP server:
 ```yaml
 mcp_servers:
   dataify:
-    url: "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}"
+    url: "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}&tools=user_info,web_unlocker,google_serp,yandex_serp,duckduckgo_serp,bing_serp,amazon,youtube,facebook,instagram,reddit,walmart,google,booking,indeed,airbnb,google_play_store,github,tiktok,linkedin,glassdoor,twitter,crunchbase,zillow,ebay"
     enabled: true
 ```
 
@@ -73,7 +73,7 @@ The remote server exposes a large MCP tool catalog. Common tools include:
 Dataify MCP uses a Dataify API token in the MCP endpoint URL:
 
 ```text
-https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}
+https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}&tools=user_info,web_unlocker,google_serp,yandex_serp,duckduckgo_serp,bing_serp,amazon,youtube,facebook,instagram,reddit,walmart,google,booking,indeed,airbnb,google_play_store,github,tiktok,linkedin,glassdoor,twitter,crunchbase,zillow,ebay
 ```
 
 Treat this token like a password:
@@ -97,7 +97,7 @@ For MCP clients that do not install ClawHub bundles, configure the remote server
     "dataify": {
       "type": "http",
       "transport": "streamable-http",
-      "url": "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}"
+      "url": "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}&tools=user_info,web_unlocker,google_serp,yandex_serp,duckduckgo_serp,bing_serp,amazon,youtube,facebook,instagram,reddit,walmart,google,booking,indeed,airbnb,google_play_store,github,tiktok,linkedin,glassdoor,twitter,crunchbase,zillow,ebay"
     }
   }
 }

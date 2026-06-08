@@ -1,6 +1,6 @@
 {
   "name": "@dataify-server/dataify-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ClawHub bundle plugin for Dataify remote MCP tools.",
   "license": "MIT",
   "openclaw": {

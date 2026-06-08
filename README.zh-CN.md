@@ -25,7 +25,7 @@ export DATAIFY_API_TOKEN="your_dataify_api_token"
 ```yaml
 mcp_servers:
   dataify:
-    url: "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}"
+    url: "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}&tools=user_info,web_unlocker,google_serp,yandex_serp,duckduckgo_serp,bing_serp,amazon,youtube,facebook,instagram,reddit,walmart,google,booking,indeed,airbnb,google_play_store,github,tiktok,linkedin,glassdoor,twitter,crunchbase,zillow,ebay"
     enabled: true
 ```
 
@@ -71,7 +71,7 @@ mcp_servers:
 Dataify MCP 使用 URL 查询参数中的 Dataify API Token 鉴权：
 
 ```text
-https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}
+https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}&tools=user_info,web_unlocker,google_serp,yandex_serp,duckduckgo_serp,bing_serp,amazon,youtube,facebook,instagram,reddit,walmart,google,booking,indeed,airbnb,google_play_store,github,tiktok,linkedin,glassdoor,twitter,crunchbase,zillow,ebay
 ```
 
 请把 API Token 当作密码处理：
@@ -95,7 +95,7 @@ https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}
     "dataify": {
       "type": "http",
       "transport": "streamable-http",
-      "url": "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}"
+      "url": "https://mcp.dataify.com/mcp?token=${DATAIFY_API_TOKEN}&tools=user_info,web_unlocker,google_serp,yandex_serp,duckduckgo_serp,bing_serp,amazon,youtube,facebook,instagram,reddit,walmart,google,booking,indeed,airbnb,google_play_store,github,tiktok,linkedin,glassdoor,twitter,crunchbase,zillow,ebay"
     }
   }
 }
